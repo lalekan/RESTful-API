@@ -1,5 +1,17 @@
 {
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "name": "restful-api",
+  "version": "1.0.0",
+  "description": "| HTTP Method | Endpoint | CRUD Operation | Route Name | Description | |--|--|--|--|--| | Get | /songs | Read | Index | Get all the songs | | Get | /songs/:songid | Read | show | Dislay data for a single song | | Get | /songs/:songid/edit | Read | edit | display on edit form | | Put | /songs/:songid | update a current song | edit | update a specific song | | Post | /songs | Create a new song| create | Add a new song to the list | | Delete | /songs:songid | delete a specific operation| delete | Add a new song to the list |",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
