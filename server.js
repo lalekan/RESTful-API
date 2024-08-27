@@ -31,5 +31,9 @@ app.post('/calculator', (req, res) => {
     res.status(200).json({total})
 })
 
+app.delete('/calculator', (req, res) => {
+    total = 0
+    res.status(200).json({total, msg: "Total Reset"})
+})
 // Listener
 app.listen(PORT, () => console.log(`Express is listening on port: ${PORT}`))
